@@ -10,5 +10,25 @@ body {
 
 .navigation__menu {
     grid-area: cabecalho;
+}
 
+.main__contents {
+    display: grid;
+    grid-template-areas:
+        "image-area"
+        "description-area";
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+
+.main__image {
+    grid-area: image-area;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.main__description {
+    grid-area: description-area;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
 }
