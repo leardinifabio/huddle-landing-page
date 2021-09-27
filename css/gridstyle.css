@@ -7,3 +7,8 @@ body {
     grid-template-columns: auto;
     grid-template-rows: auto;
 }
+
+.navigation__menu {
+    grid-area: cabecalho;
+
+}
