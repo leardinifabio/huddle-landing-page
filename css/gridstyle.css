@@ -1,0 +1,9 @@
+body {
+    display: grid;
+    grid-template-areas:
+        "cabecalho"
+        "conteudo-principal"
+        "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
