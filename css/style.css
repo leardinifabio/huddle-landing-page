@@ -1,35 +1,36 @@
-body {
-    background: hsl(257, 40%, 49%) url('../images/bg-desktop.svg') no-repeat fixed center;
-    background-size: contain;
+html {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
     font-family: 'Poppins', sans-serif;
     color: #fdfdfd;
 }
 
-.navigation__menu {
-    padding: 4rem 0;
-    margin: 0 8rem;
+body {
+    background: hsl(257, 40%, 49%) url('../images/bg-desktop.svg') no-repeat fixed center;
+    background-size: contain;
+    width: 1440px;
 }
 
-.main__contents {
-    margin: 0 8rem;
+.navigation__menu {
+    padding: 4rem 0;
 }
 
 .main__description {
-    padding: 5rem 3rem;
+    padding: 5rem 2rem;
 }
 
 .main__description___title {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 3em;
     line-height: 4.5rem;
-    padding-right: 5rem;
     margin-bottom: 2rem;
 }
 
 .main__description___text {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 2rem;
     text-align: justify;
     font-weight: 400;
