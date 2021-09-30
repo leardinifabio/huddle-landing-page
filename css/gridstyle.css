@@ -51,10 +51,20 @@ body {
     grid-row: 3 / 4;
 }
 
-.footer__icon {
-    padding-left: 1rem;
-}
+@media (max-width: 800px; ) {
 
-.footer__icon:hover {
-    color: hsl(335, 77%, 63%);
+    .main__contents {
+        grid-template-columns: auto;
+    }
+
+    .main__image {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .main__description {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
 }
