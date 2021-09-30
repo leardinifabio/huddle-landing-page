@@ -51,7 +51,7 @@ body {
     grid-row: 3 / 4;
 }
 
-@media (max-width: 800px; ) {
+@media (max-width: 800px) {
 
     .main__contents {
         grid-template-columns: auto;
