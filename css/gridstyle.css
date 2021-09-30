@@ -67,4 +67,12 @@ body {
         grid-row: 2 / 3;
     }
 
+    .main__description___layout {
+        text-align: center;
+        justify-items: center;
+    }
+
+    .main__description___text {
+        text-align: center;
+    }
 }

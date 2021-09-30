@@ -74,3 +74,43 @@ body {
 .attribution {
     text-align: center;
 }
+
+@media (max-width: 800px) {
+
+    body {
+        background: hsl(257, 40%, 49%) url('../images/bg-mobile.svg') no-repeat fixed top;
+        background-size: contain;
+        min-width: 375px;
+    }
+
+    .navigation__menu {
+        padding: 3rem 0 3rem 2rem;
+    }
+
+    .main__image {
+        padding: 0 2rem;
+    }
+
+    .main__description {
+        padding: 3rem 2rem;
+    }
+
+    .main__description___layout {
+        text-align: center;
+        justify-items: center;
+    }
+
+    .main__description___text {
+        text-align: center;
+    }
+
+    .footer__contents {
+        justify-content: center;
+        padding: 0;
+        margin: 0 0 2rem 0;
+    }
+
+    .footer__icon {
+        padding: 0;
+    }
+}
