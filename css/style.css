@@ -75,7 +75,7 @@ body {
     text-align: center;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 799px) {
 
     body {
         background: hsl(257, 40%, 49%) url('../images/bg-mobile.svg') no-repeat fixed top;
@@ -112,5 +112,14 @@ body {
 
     .footer__icon {
         padding: 0;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+
+    body {
+        background-image: url('../images/bg-desktop.svg');
+        background-color: hsl(257, 40%, 49%);
+        background-size: ;
     }
 }
