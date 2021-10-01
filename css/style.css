@@ -8,7 +8,7 @@ html {
 
 body {
     background: hsl(257, 40%, 49%) url('../images/bg-desktop.svg') no-repeat fixed center;
-    background-size: contain;
+    background-size: auto 100%;
     width: 1440px;
 }
 
@@ -75,7 +75,7 @@ body {
     text-align: center;
 }
 
-@media (max-width: 799px) {
+@media (max-width: 999px) {
 
     body {
         background: hsl(257, 40%, 49%) url('../images/bg-mobile.svg') no-repeat fixed top;
@@ -115,11 +115,11 @@ body {
     }
 }
 
-@media (min-width: 800px) and (max-width: 1200px) {
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
 
     body {
         background-image: url('../images/bg-desktop.svg');
         background-color: hsl(257, 40%, 49%);
-        background-size: ;
+        background-size: auto 100%;
     }
 }
